@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   terraform:
-    uses: ./.github/workflows/terraform.yml
+    uses:  ./.github/workflows/terraform.yml
     with: 
       enviremont: dev
       aws-assume-role-arn: "arn:aws:iam::058264483404:role/github-actions-kadu3611"
