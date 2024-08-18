@@ -15,6 +15,6 @@ jobs:
     with:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::058264483404:role/github-actions-kadu3611"
-      aws-region: "sa-east-1"
+      aws-region: "us-east-2"
       aws-statefile-s3-bucket: "kadu-terraform-statefile"
       aws-lock-dynamodb-table: "Tabela-Terraform"
